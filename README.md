@@ -1,8 +1,10 @@
-# javac_1.8.0_45_NPE
-Strange NPE when you compile this with javac 1.8.0_45 on a mac
+# javac-1.8.0_51-b16-NPE
+Strange NPE when you compile this with javac 1.8.0_51 on a mac
+
+Appears similar to [this bug report](https://bugs.openjdk.java.net/browse/JDK-8075664).
 
 	$ javac Testing.java
-	An exception has occurred in the compiler (1.8.0_45). Please file a bug at the Java Developer Connection (http://java.sun.com/webapps/bugreport)  after checking the Bug Parade for duplicates. Inclu
+	An exception has occurred in the compiler (1.8.0_51). Please file a bug at the Java Developer Connection (http://java.sun.com/webapps/bugreport)  after checking the Bug Parade for duplicates. Inclu
 	de your program and the following diagnostic in your report.  Thank you.
 	java.lang.NullPointerException
 	        at com.sun.tools.javac.comp.Flow$AbstractAssignAnalyzer.visitIdent(Flow.java:2377)
